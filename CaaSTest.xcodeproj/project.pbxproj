@@ -13,6 +13,17 @@
 		236D7CCF1C4FC45900AAF629 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 236D7CCD1C4FC45900AAF629 /* Main.storyboard */; };
 		236D7CD11C4FC45900AAF629 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 236D7CD01C4FC45900AAF629 /* Assets.xcassets */; };
 		236D7CD41C4FC45900AAF629 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 236D7CD21C4FC45900AAF629 /* LaunchScreen.storyboard */; };
+		236D7CE41C4FC6B200AAF629 /* CustomCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236D7CE31C4FC6B200AAF629 /* CustomCollectionViewLayout.swift */; };
+		2372EF571C50E6D900458978 /* CashPointDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2372EF561C50E6D900458978 /* CashPointDataSource.swift */; };
+		2372EF591C50E86600458978 /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2372EF581C50E86600458978 /* BaseCollectionViewCell.swift */; };
+		2372EF611C50F38200458978 /* CashPointSectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2372EF5F1C50F38200458978 /* CashPointSectionCell.swift */; };
+		2372EF621C50F38200458978 /* CashPointSectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2372EF601C50F38200458978 /* CashPointSectionCell.xib */; };
+		2372EF651C50F45000458978 /* CashPointTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2372EF631C50F45000458978 /* CashPointTextCell.swift */; };
+		2372EF661C50F45000458978 /* CashPointTextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2372EF641C50F45000458978 /* CashPointTextCell.xib */; };
+		2372EF691C50F47D00458978 /* CashPointImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2372EF671C50F47D00458978 /* CashPointImageCell.swift */; };
+		2372EF6A1C50F47D00458978 /* CashPointImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2372EF681C50F47D00458978 /* CashPointImageCell.xib */; };
+		2372EF6F1C50FCD000458978 /* CashPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2372EF6E1C50FCD000458978 /* CashPoint.swift */; };
+		2372EF711C51175900458978 /* CashPointDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2372EF701C51175900458978 /* CashPointDataLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +35,17 @@
 		236D7CD01C4FC45900AAF629 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		236D7CD31C4FC45900AAF629 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		236D7CD51C4FC45900AAF629 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		236D7CE31C4FC6B200AAF629 /* CustomCollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewLayout.swift; sourceTree = "<group>"; };
+		2372EF561C50E6D900458978 /* CashPointDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CashPointDataSource.swift; sourceTree = "<group>"; };
+		2372EF581C50E86600458978 /* BaseCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewCell.swift; sourceTree = "<group>"; };
+		2372EF5F1C50F38200458978 /* CashPointSectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CashPointSectionCell.swift; sourceTree = "<group>"; };
+		2372EF601C50F38200458978 /* CashPointSectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CashPointSectionCell.xib; sourceTree = "<group>"; };
+		2372EF631C50F45000458978 /* CashPointTextCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CashPointTextCell.swift; sourceTree = "<group>"; };
+		2372EF641C50F45000458978 /* CashPointTextCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CashPointTextCell.xib; sourceTree = "<group>"; };
+		2372EF671C50F47D00458978 /* CashPointImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CashPointImageCell.swift; sourceTree = "<group>"; };
+		2372EF681C50F47D00458978 /* CashPointImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CashPointImageCell.xib; sourceTree = "<group>"; };
+		2372EF6E1C50FCD000458978 /* CashPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CashPoint.swift; sourceTree = "<group>"; };
+		2372EF701C51175900458978 /* CashPointDataLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CashPointDataLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +78,50 @@
 		236D7CC61C4FC45900AAF629 /* CaaSTest */ = {
 			isa = PBXGroup;
 			children = (
-				236D7CC71C4FC45900AAF629 /* AppDelegate.swift */,
+				2372EF531C50DDC000458978 /* CashPoint */,
+				236D7CE31C4FC6B200AAF629 /* CustomCollectionViewLayout.swift */,
 				236D7CC91C4FC45900AAF629 /* MasterViewController.swift */,
 				236D7CCB1C4FC45900AAF629 /* DetailViewController.swift */,
+				236D7CC71C4FC45900AAF629 /* AppDelegate.swift */,
 				236D7CCD1C4FC45900AAF629 /* Main.storyboard */,
 				236D7CD01C4FC45900AAF629 /* Assets.xcassets */,
 				236D7CD21C4FC45900AAF629 /* LaunchScreen.storyboard */,
 				236D7CD51C4FC45900AAF629 /* Info.plist */,
 			);
 			path = CaaSTest;
+			sourceTree = "<group>";
+		};
+		2372EF531C50DDC000458978 /* CashPoint */ = {
+			isa = PBXGroup;
+			children = (
+				2372EF6D1C50FCA600458978 /* Model */,
+				2372EF5C1C50F28800458978 /* CashPointCell */,
+				2372EF561C50E6D900458978 /* CashPointDataSource.swift */,
+				2372EF701C51175900458978 /* CashPointDataLoader.swift */,
+			);
+			name = CashPoint;
+			sourceTree = "<group>";
+		};
+		2372EF5C1C50F28800458978 /* CashPointCell */ = {
+			isa = PBXGroup;
+			children = (
+				2372EF581C50E86600458978 /* BaseCollectionViewCell.swift */,
+				2372EF5F1C50F38200458978 /* CashPointSectionCell.swift */,
+				2372EF631C50F45000458978 /* CashPointTextCell.swift */,
+				2372EF671C50F47D00458978 /* CashPointImageCell.swift */,
+				2372EF601C50F38200458978 /* CashPointSectionCell.xib */,
+				2372EF641C50F45000458978 /* CashPointTextCell.xib */,
+				2372EF681C50F47D00458978 /* CashPointImageCell.xib */,
+			);
+			name = CashPointCell;
+			sourceTree = "<group>";
+		};
+		2372EF6D1C50FCA600458978 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2372EF6E1C50FCD000458978 /* CashPoint.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +182,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2372EF661C50F45000458978 /* CashPointTextCell.xib in Resources */,
 				236D7CD41C4FC45900AAF629 /* LaunchScreen.storyboard in Resources */,
+				2372EF6A1C50F47D00458978 /* CashPointImageCell.xib in Resources */,
 				236D7CD11C4FC45900AAF629 /* Assets.xcassets in Resources */,
+				2372EF621C50F38200458978 /* CashPointSectionCell.xib in Resources */,
 				236D7CCF1C4FC45900AAF629 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +198,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2372EF571C50E6D900458978 /* CashPointDataSource.swift in Sources */,
+				2372EF591C50E86600458978 /* BaseCollectionViewCell.swift in Sources */,
+				2372EF611C50F38200458978 /* CashPointSectionCell.swift in Sources */,
+				2372EF711C51175900458978 /* CashPointDataLoader.swift in Sources */,
 				236D7CCC1C4FC45900AAF629 /* DetailViewController.swift in Sources */,
+				2372EF651C50F45000458978 /* CashPointTextCell.swift in Sources */,
 				236D7CCA1C4FC45900AAF629 /* MasterViewController.swift in Sources */,
 				236D7CC81C4FC45900AAF629 /* AppDelegate.swift in Sources */,
+				236D7CE41C4FC6B200AAF629 /* CustomCollectionViewLayout.swift in Sources */,
+				2372EF691C50F47D00458978 /* CashPointImageCell.swift in Sources */,
+				2372EF6F1C50FCD000458978 /* CashPoint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +323,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.edsson.CaaSTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -266,6 +335,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.edsson.CaaSTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
@@ -288,6 +358,7 @@
 				236D7CDA1C4FC45900AAF629 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

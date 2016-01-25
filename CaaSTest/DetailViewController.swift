@@ -10,36 +10,50 @@ import UIKit
 
 class DetailViewController: UIViewController {
 
-    @IBOutlet weak var detailDescriptionLabel: UILabel!
+    
+    @IBOutlet weak var collectionView: UICollectionView!
+    @IBOutlet weak var collectionViewHeightConstraint: NSLayoutConstraint!
+    
+    var scrollItem = 0
 
-
-    var detailItem: AnyObject? {
-        didSet {
-            // Update the view.
-            self.configureView()
-        }
-    }
-
-    func configureView() {
-        // Update the user interface for the detail item.
-        if let detail = self.detailItem {
-            if let label = self.detailDescriptionLabel {
-                label.text = detail.description
-            }
-        }
-    }
+    
+    let dataSource = CashPointDataSource()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        self.configureView()
+        
+        collectionView.layer.cornerRadius = 7.0
+        collectionView.registerNib(UINib(nibName: CashPointSectionCell.identifier, bundle: nil), forCellWithReuseIdentifier: CashPointSectionCell.identifier)
+        collectionView.registerNib(UINib(nibName: CashPointTextCell.identifier, bundle: nil), forCellWithReuseIdentifier: CashPointTextCell.identifier)
+        collectionView.registerNib(UINib(nibName: CashPointImageCell.identifier, bundle: nil), forCellWithReuseIdentifier: CashPointImageCell.identifier)
+      
+        collectionView.delegate = self
+        collectionView.dataSource = dataSource
+        
+        collectionViewHeightConstraint.constant = 600
+        
     }
+    
+    @IBAction func next(sender: AnyObject) {
+        
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        let visibleItems = collectionView.indexPathsForVisibleItems()
+        let currentItem = visibleItems[0]
+        let nextItem = NSIndexPath(forItem: (currentItem.row + 1), inSection: currentItem.section)
+
+        
+        scrollItem = scrollItem+2
+        collectionView.scrollToItemAtIndexPath(nextItem, atScrollPosition: UICollectionViewScrollPosition.CenteredHorizontally, animated: true)
     }
-
-
+    
+    @IBAction func prev(sender: AnyObject) {
+        
+        scrollItem--
+        collectionView.scrollToItemAtIndexPath(NSIndexPath(forItem: scrollItem, inSection: 1), atScrollPosition: UICollectionViewScrollPosition.CenteredHorizontally, animated: true)
+    }
 }
 
+
+extension DetailViewController: UICollectionViewDelegate {
+    
+}
